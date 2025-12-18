@@ -1,0 +1,36 @@
+{
+    "name": "Tower Def Template",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "Browser Events Advanced": "github:the-code-zone/browser-events-advanced-pxt-extension#v0.2.4",
+        "arcade-sprite-util": "github:jwunderl/arcade-sprite-util#v0.4.1",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.2.1",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0",
+        "arcade-sprite-events": "github:The-Code-Zone/Events-pxt-extension#e98f3047732201538e3b7de17d64c191c7d32eaf",
+        "Tiles Advanced": "github:The-Code-Zone/Tiles-Advanced-pxt-extension#v1.0.3",
+        "Sprites Advanced": "github:The-Code-Zone/Sprites-Advanced-pxt-extension#v0.1.10"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "2.0.3",
+        "pxt": "10.0.23",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
